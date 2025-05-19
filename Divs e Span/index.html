@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divs e span</title>
+    <style>
+      #topo {
+        background-color: skyblue;
+      }
+
+      #conteudo {
+        background-color: red;
+      }
+
+      #rodape {
+        background-color: green;
+      }
+
+      /* #assinatura {
+        background-color: blue;
+      } */
+
+      .produto {
+        background-color: gray;
+        margin: 10px;
+      }
+      .azul {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="topo">
+      <img src="amazon.png" width="200" />
+      <ul>
+        <li>Home</li>
+        <li>Produtos</li>
+        <li>Contato</li>
+      </ul>
+    </div>
+    <div id="conteudo">
+      <div class="produto">Produto 1</div>
+      <div class="produto">Produto 2</div>
+      <div class="produto">Produto 3</div>
+    </div>
+    <div id="rodape">
+      Todos os <span class="azul">direitos</span> reservados
+    </div>
+
+    <!-- <span id="assinatura">Azul</span>
+    <span id="assinatura">Lima</span> -->
+  </body>
+
+  <!-- div são elementos do tipo block (ocupam todo o espaço da tela, como se fosse largura 100%).
+   Por sua vez o span, se comporta como inline, ou seja, ele agrupa os elementos linha por linha, do lado do outro.-->
+</html>
