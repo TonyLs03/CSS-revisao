@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bordas</title>
+    <style>
+      #conteudo {
+        /* border: 30px dashed blue; */
+        border-color: red green yellow blue;
+        border-width: 15px 10px 5px 20px;
+        border-style: solid dotted double groove;
+        /* border-style: dotted solid; aqui o elemento seria alterado na parte superior e inferior
+        como dotted e nas partes direita e esquerda como solid, é assim que
+        se comporta quando declaramos apenas 2 valores. Isso também ocorre na propriedade "border-width"*/
+      }
+    </style>
+  </head>
+  <body>
+    <div id="conteudo">
+      Bordas<br />
+      Bordas<br />
+      Bordas<br />
+    </div>
+  </body>
+  <!-- atributo borda declaramos 3 propriedades: a primeira é a espessura, a segunda o comportamento
+   e a terceira a cor. na segunda podemos declarar: dashed, solid, double, groove,
+   ridge, inset, outset, none (faz com que não tenha bordas), hidden (esconde a borda
+   mas ela continua existindo) 
+   
+   declarando cada propriedade individualmente(segundo exemplo, abaixo do comentário) 
+   podemos possuir um poder maior de controle
+   sobre os valores, dessa forma manipulando de diversas formas o elemento-->
+</html>
