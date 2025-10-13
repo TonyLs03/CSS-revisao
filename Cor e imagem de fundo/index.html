@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cor e Imagem de Fundo</title>
+    <style>
+      body {
+        /* background: blue; */
+        background-image: url("yoshi.png");
+        /* repeat-x, repeat-y, no-repeat, repeat */
+        background-repeat: no-repeat;
+        /* scroll, fixed */
+        background-attachment: scroll;
+        /* primeiro valor: left, center, right;
+            segundo valor: top, center, bottom; */
+        background-position: center top;
+      }
+
+      .fundo {
+        background: blue url("yoshi.png") repeat-x scroll left top;
+      }
+    </style>
+  </head>
+  <body class="fundo">
+    <h1>Conteúdo de título 1</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem
+      provident, exercitationem in ut tempore nobis voluptatum eaque, accusamus
+      natus iusto, cum quod quia asperiores eveniet! Omnis ut magnam id?
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem
+      provident, exercitationem in ut tempore nobis voluptatum eaque, accusamus
+      natus iusto, cum quod quia asperiores eveniet! Omnis ut magnam id?
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatem
+      provident, exercitationem in ut tempore nobis voluptatum eaque, accusamus
+      natus iusto, cum quod quia asperiores eveniet! Omnis ut magnam id?
+    </p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>Conteúdo de título 2</p>
+  </body>
+</html>
+
+<!-- podemos usar o background-color para definir a cor de 
+fundo de um elemento HTML. 
+No exemplo acima, o fundo do título h1 é azul e a cor do texto 
+é branca. mas também podemos usar uma imagem como fundo,
+usando a propriedade background-image. -->
